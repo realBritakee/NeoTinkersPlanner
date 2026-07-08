@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="${loader_range}"
+license="MIT License"
+issueTrackerURL="https://github.com/vancevoj/neoplanner/issues"
+
+[[mods]]
+    modId="neoplanner"
+    version="${version}"
+    displayName="Neo Planner"
+    logoFile="logo.png"
+    authors="Tiffit, SpikyStars, vancevoj"
+    # Client-side mod: ignore version checks so it can connect to any server.
+    displayTest="IGNORE_ALL_VERSION"
+    description='''
+Neo Planner is a client-side mod which lets you try out different material and modifier combinations for Tinkers' Construct tools before actually making the tool. vancevoj's NeoForge 1.21.1 rebrand/port of Tiffit & SpikyStars' Tinkers' Planner ${mod_version}.
+    '''
+    displayURL="https://github.com/vancevoj/neoplanner"
+
+[[dependencies.neoplanner]]
+    modId="neoforge"
+    type="required"
+    versionRange="${neoforge_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.neoplanner]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.neoplanner]]
+    modId="tconstruct"
+    type="required"
+    versionRange="${tconstruct_range}"
+    ordering="NONE"
+    side="CLIENT"

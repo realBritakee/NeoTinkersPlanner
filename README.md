@@ -8,6 +8,6 @@ Full credit for the mod goes to Tiffit & SpikyStars, and to SlimeKnights for Tin
 
 ## Download
 
-- [Neo Planner - latest release](https://github.com/realBritakee/NeoTinkersPlanner)
-- [Neo Tinkers (required) - latest release](https://github.com/realBritakee/NeoTinkersConstruct)
-- [Neo Mantle (required) - latest release](https://github.com/realBritakee/NeoMantle)
+- [Neo Planner](https://github.com/realBritakee/NeoTinkersPlanner)
+- [Neo Tinkers (required)](https://github.com/realBritakee/NeoTinkersConstruct)
+- [Neo Mantle (required)](https://github.com/realBritakee/NeoMantle)
